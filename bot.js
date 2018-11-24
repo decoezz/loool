@@ -28,4 +28,4 @@ credit credit credit credit credit credit credit credit credit credit credit cre
           }
     });
 
-client.login("NTAwMDI3MzI0OTk0MTU4NjIz.Dtq_TQ.3iVxjIJpHxWBt4rzt8Na_TYdRD8");
+client.login("process.env.TOKEN");
