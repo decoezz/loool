@@ -9,8 +9,23 @@ client.on('ready', async() => {
 var server = "505417459369508884"; // ايدي السررفر
 var channel = "515848416199311362";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam ,  , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , ')
-    },400);
-})
+   client.on('message', message => {
+    if (message.content === '!spam') {
+          let count = 0;
+          let ecount = 0;
+          for(let x = 0; x < 90000; x++) {
+            message.channel.send(`credit credit credit credit credit credit credit credit credit credit credit credit credit credit
+credit credit credit credit credit credit credit credit credit credit credit credit credit credit
+credit credit credit credit credit credit credit credit credit credit credit credit credit credit
+credit credit credit credit credit credit credit credit credit credit credit credit credit credit
+credit credit credit credit credit credit credit credit credit credit credit credit credit credit
+credit credit credit credit credit credit credit credit credit credit credit credit credit credit ${x}`)
+              .then(m => {
+                count++;
+              })
+              
+            }
+          }
+    });
 
 client.login("NTAwMDI3MzI0OTk0MTU4NjIz.Dtq_TQ.3iVxjIJpHxWBt4rzt8Na_TYdRD8");
