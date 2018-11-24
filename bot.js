@@ -6,11 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "Id server"; // ايدي السررفر
-var channel = "id room";//ايدي الروم
+var server = "505417459369508884"; // ايدي السررفر
+var channel = "515848416199311362";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam ,  , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , Dalida Spam , ')
     },400);
 })
 
-client.login(توكن حسابك);
+client.login("NTAwMDI3MzI0OTk0MTU4NjIz.Dtq_TQ.3iVxjIJpHxWBt4rzt8Na_TYdRD8");
